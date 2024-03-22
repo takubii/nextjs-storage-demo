@@ -1,3 +1,4 @@
+import Header from '@/components/header';
 import './globals.css';
 
 const defaultUrl = process.env.VERCEL_URL
@@ -14,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang='ja'>
       <body className='bg-background text-foreground'>
-        {/* Header */}
+        <Header />
         <main className='min-h-screen flex flex-col items-center px-2'>{children}</main>
       </body>
     </html>
