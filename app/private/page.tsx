@@ -1,3 +1,5 @@
+import PrivateImageApp from '@/components/privateImageApp';
+
 export default function Private() {
   return (
     <>
@@ -8,8 +10,7 @@ export default function Private() {
         再度アクセスしたい場合はリロードボタンを押してください。
       </p>
       <div className='flex-1 w-full flex flex-col items-center'>
-        {/* PrivateImageApp
-         */}
+        <PrivateImageApp />
       </div>
     </>
   );
